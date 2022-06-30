@@ -1,0 +1,24 @@
+#container {
+    display: grid;
+    height:600px;
+    width: 600px;
+
+}
+
+.div {
+    flex: 1 1 100px;
+    background: blue;
+    border: 1px solid black;
+    padding: 15px;
+    padding-left:38px;
+    padding-bottom: 27px;
+    opacity: 1;
+    transition: opacity 0.8s ease 0.8s, transform 0.8s ease;
+    transform: scale(1)
+}
+
+.div:hover {
+    opacity: 1;
+    transition: opacity 0.2s ease;
+    transform: scale(1.04);
+}
